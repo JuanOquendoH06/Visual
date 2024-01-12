@@ -1,39 +1,60 @@
-/* Estilos para la sección Productos */
 .Productos {
-    position: relative; /* Necesario para posicionar las flechas correctamente */
-}
-
-/* Estilos del carrusel */
-.Comida,
-.Bebidas {
     display: flex;
-    overflow: hidden;
-}
-
-.Comida section,
-.Bebidas section {
-    flex: 0 0 100%; /* Ancho fijo del 100% para cada sección */
-}
-
-/* Estilos de las flechas */
-.arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    font-size: 24px;
-    color: #333;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #780707;
+  }
+  .container {
+    text-align: center;
+  }
+  
+  .button {
+    background-color: rgb(251, 255, 0);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
     border-radius: 5px;
-    z-index: 2;
-}
-
-.prev {
-    left: 10px;
-}
-
-.next {
-    right: 10px;
-}
+  }
+  
+  .Comida,
+  .Bebidas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+    background-color: #ffba1b;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-title {
+    margin: 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  
+  .card-text {
+    margin: 0;
+    font-weight: bold;
+  }

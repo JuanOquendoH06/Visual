@@ -33,78 +33,65 @@
             selección de bebidas, incluyendo refrescos, agua y cerveza.</p>
     </div>
     <section class="Productos">
-        <div class="Comida carrusel"> <!-- Agregado "carrusel" como clase -->
-            <input type="radio" name="comida-radio" id="comida1" checked>
-            <section>
-                <!-- Contenido de la primera diapositiva del carrusel -->
-                <img src="public/img/hambur.jpeg" alt="" width="200px" height="200px">
-                <div>
-                    <h2>Hamburguesa con queso</h2>
-                    <p>5$</p>
-                </div>
-            </section>
-
-            <input type="radio" name="comida-radio" id="comida2">
-            <section>
-                <!-- Contenido de la segunda diapositiva del carrusel -->
-                <img src="public/img/papas.jpeg" alt="" width="200px" height="200px">
-                <div>
-                    <h2>Papas con chili</h2>
-                    <p>4.50$</p>
-                </div>
-            </section>
-
-            <input type="radio" name="comida-radio" id="comida3">
-            <section>
-                <!-- Contenido de la tercera diapositiva del carrusel -->
-                <img src="public/img/perro.jpeg" alt="" width="200px" height="200px">
-                <div>
-                    <h2>HotDog</h2>
-                    <p>3$</p>
-                </div>
-            </section>
-
-            <!-- Flechas para cambiar entre diapositivas -->
-            <label for="comida1" class="arrow prev">&#10094;</label>
-            <label for="comida2" class="arrow next">&#10095;</label>
+        <div class="Comida">
+          <div class="card">
+            <img src="public/img/hambur.jpeg" alt="" width="200px" height="200px">
+            <div class="card-body">
+              <h2 class="card-title">Hamburguesa</h2>
+              <div class="container">
+                <button class="button">5$</button>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="public/img/papas.jpeg" alt="" width="200px" height="200px">
+            <div class="card-body">
+              <h2 class="card-title">Papas con chili</h2>
+              <div class="container">
+                <button class="button">4$</button>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="public/img/perro.jpeg" alt="" width="200px" height="200px">
+            <div class="card-body">
+              <h2 class="card-title">Hotdog</h2>
+              <div class="container">
+                <button class="button">5$</button>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="Bebidas carrusel"> <!-- Agregado "carrusel" como clase -->
-            <input type="radio" name="bebidas-radio" id="bebida1" checked>
-            <section>
-                <!-- Contenido de la primera diapositiva del carrusel para bebidas -->
-                <img src="public/img/malteada.jpeg" alt="" width="200px" height="200px">
-                <div>
-                    <h2>Malteada de chocolate</h2>
-                    <p>4$</p>
-                </div>
-            </section>
-
-            <input type="radio" name="bebidas-radio" id="bebida2">
-            <section>
-                <!-- Contenido de la segunda diapositiva del carrusel para bebidas -->
-                <img src="public/img/te.jpeg" alt="" width="200px" height="200px">
-                <div>
-                    <h2>Gaseosa</h2>
-                    <p>2$</p>
-                </div>
-            </section>
-
-            <input type="radio" name="bebidas-radio" id="bebida3">
-            <section>
-                <!-- Contenido de la tercera diapositiva del carrusel para bebidas -->
-                <img src="public/img/limonada.jpeg" alt="" width="200px" height="200px">
-                <div>
-                    <h2>Limonada</h2>
-                    <p>1$</p>
-                </div>
-            </section>
-
-            <!-- Flechas para cambiar entre diapositivas -->
-            <label for="bebida1" class="arrow prev">&#10094;</label>
-            <label for="bebida2" class="arrow next">&#10095;</label>
+        <div class="Bebidas">
+          <div class="card">
+            <img src="public/img/malteada.jpeg" alt="" width="200px" height="200px">
+            <div class="card-body">
+              <h2 class="card-title">Malteada de chocolate</h2>
+              <div class="container">
+                <button class="button">4$</button>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="public/img/te.jpeg" alt="" width="200px" height="200px">
+            <div class="card-body">
+              <h2 class="card-title">Gaseosa</h2>
+              <div class="container">
+                <button class="button">2$</button>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="public/img/limonada.jpeg" alt="" width="200px" height="200px">
+            <div class="card-body">
+              <h2 class="card-title">Limonada</h2>
+              <div class="container">
+                <button class="button">1$</button>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
 
     <section class="AcercaDeNosotros">
         <h2>Acerca de Nosotros</h2>
